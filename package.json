@@ -1,0 +1,18 @@
+{
+  "name": "petmatch",
+  "version": "1.0.0",
+  "description": "Pet match starter app",
+  "main": "src\\index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "author": "John Lim",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  }
+}
